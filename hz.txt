@@ -1,0 +1,490 @@
+{
+  "dns": {
+    "hosts": {
+      "dns.apple.com": [
+        "0.0.0.0"
+      ],
+      "mask.icloud.com": [
+        "0.0.0.0"
+      ],
+      "doh.dns.apple.com": [
+        "0.0.0.0"
+      ],
+      "mask-h2.icloud.com": [
+        "0.0.0.0"
+      ],
+      "mask-api.icloud.com": [
+        "0.0.0.0"
+      ]
+    },
+    "servers": [
+      {
+        "address": "77.88.8.8",
+        "domains": [
+          "geosite:category-ru",
+          "geosite:category-gov-ru",
+          "geosite:yandex",
+          "geosite:vk",
+          "geosite:ok",
+          "regexp:^(.+\\.)?ru$",
+          "regexp:^(.+\\.)?su$",
+          "regexp:^(.+\\.)?xn--p1ai$",
+          "domain:userapi.com",
+          "domain:vk.com",
+          "domain:vk.me",
+          "domain:vk.cc",
+          "domain:vkontakte.ru",
+          "domain:vk-cdn.net",
+          "domain:vkuser.net",
+          "domain:vkuservideo.com",
+          "domain:vkmessenger.com",
+          "domain:mycdn.me",
+          "domain:mradx.net",
+          "domain:mvk.com",
+          "domain:tamtam.chat",
+          "domain:okolo.app",
+          "domain:perekrestok.com",
+          "domain:5post.market",
+          "domain:chizhik.club",
+          "domain:x5.com",
+          "domain:x5.tech",
+          "domain:x5.group",
+          "domain:x5static.net",
+          "domain:ozon.com",
+          "domain:ozon.by",
+          "domain:ozon.kz",
+          "domain:ozonusercontent.com",
+          "domain:paywb.com",
+          "domain:okko.tv",
+          "domain:okko.sport",
+          "domain:kinopoisk-ru.clstorage.net",
+          "domain:yandex.com",
+          "domain:yandex.net",
+          "domain:yandex.by",
+          "domain:yandex.kz",
+          "domain:yandex.cloud",
+          "domain:yandexcloud.net",
+          "domain:yandexmetrica.com",
+          "domain:yastatic.net",
+          "domain:yastat.net",
+          "domain:naydex.net",
+          "domain:turbopages.org",
+          "domain:webvisor.com",
+          "domain:yads.tech",
+          "domain:avs.io",
+          "domain:aviasales.com",
+          "domain:2gis.com",
+          "domain:2gis.kz",
+          "domain:sberbank.com",
+          "domain:sber.pro",
+          "domain:giga.chat",
+          "domain:sbercloud.tech",
+          "domain:megamarket.tech",
+          "domain:lenta.com",
+          "domain:tochka.com",
+          "domain:gazprombank.com",
+          "domain:tinkoff-group.com",
+          "domain:tbank-online.com",
+          "domain:dodois.com",
+          "domain:dodopizza.com",
+          "domain:fix-price.com",
+          "domain:zvuk.com",
+          "domain:trbcdn.net",
+          "domain:cdnvideohub.com",
+          "domain:boosty.to",
+          "domain:donationalerts.com",
+          "domain:youla.io",
+          "domain:emias.info",
+          "domain:unidraw.io"
+        ],
+        "skipFallback": true
+      },
+      "1.1.1.1",
+      "1.0.0.1"
+    ],
+    "queryStrategy": "UseIP"
+  },
+  "routing": {
+    "rules": [
+      {
+        "port": "53",
+        "type": "field",
+        "network": "tcp,udp",
+        "outboundTag": "dns-out"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:mask.icloud.com",
+          "domain:mask-h2.icloud.com",
+          "domain:mask-api.icloud.com",
+          "domain:dns.apple.com",
+          "domain:doh.dns.apple.com"
+        ],
+        "outboundTag": "block"
+      },
+      {
+        "port": "443",
+        "type": "field",
+        "network": "udp",
+        "outboundTag": "block"
+      },
+      {
+        "ip": [
+          "9.9.9.9",
+          "149.112.112.112",
+          "8.8.8.8",
+          "8.8.4.4",
+          "208.67.222.222",
+          "208.67.220.220",
+          "185.228.168.9",
+          "185.228.169.9"
+        ],
+        "port": "53,443,853,5353",
+        "type": "field",
+        "network": "udp",
+        "outboundTag": "block"
+      },
+      {
+        "ip": [
+          "9.9.9.9",
+          "149.112.112.112",
+          "8.8.8.8",
+          "8.8.4.4",
+          "208.67.222.222",
+          "208.67.220.220",
+          "185.228.168.9",
+          "185.228.169.9"
+        ],
+        "port": "53,443,853",
+        "type": "field",
+        "network": "tcp",
+        "outboundTag": "block-http"
+      },
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "block"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "geosite:category-ru",
+          "geosite:category-gov-ru",
+          "geosite:yandex",
+          "geosite:vk",
+          "geosite:ok",
+          "regexp:^(.+\\.)?ru$",
+          "regexp:^(.+\\.)?su$",
+          "regexp:^(.+\\.)?xn--p1ai$",
+          "domain:userapi.com",
+          "domain:vk.com",
+          "domain:vk.me",
+          "domain:vk.cc",
+          "domain:vkontakte.ru",
+          "domain:vk-cdn.net",
+          "domain:vkuser.net",
+          "domain:vkuservideo.com",
+          "domain:vkmessenger.com",
+          "domain:mycdn.me",
+          "domain:mradx.net",
+          "domain:mvk.com",
+          "domain:tamtam.chat",
+          "domain:okolo.app",
+          "domain:perekrestok.com",
+          "domain:5post.market",
+          "domain:chizhik.club",
+          "domain:x5.com",
+          "domain:x5.tech",
+          "domain:x5.group",
+          "domain:x5static.net",
+          "domain:ozon.com",
+          "domain:ozon.by",
+          "domain:ozon.kz",
+          "domain:ozonusercontent.com",
+          "domain:paywb.com",
+          "domain:okko.tv",
+          "domain:okko.sport",
+          "domain:kinopoisk-ru.clstorage.net",
+          "domain:yandex.com",
+          "domain:yandex.net",
+          "domain:yandex.by",
+          "domain:yandex.kz",
+          "domain:yandex.cloud",
+          "domain:yandexcloud.net",
+          "domain:yandexmetrica.com",
+          "domain:yastatic.net",
+          "domain:yastat.net",
+          "domain:naydex.net",
+          "domain:turbopages.org",
+          "domain:webvisor.com",
+          "domain:yads.tech",
+          "domain:avs.io",
+          "domain:aviasales.com",
+          "domain:2gis.com",
+          "domain:2gis.kz",
+          "domain:sberbank.com",
+          "domain:sber.pro",
+          "domain:giga.chat",
+          "domain:sbercloud.tech",
+          "domain:megamarket.tech",
+          "domain:lenta.com",
+          "domain:tochka.com",
+          "domain:gazprombank.com",
+          "domain:tinkoff-group.com",
+          "domain:tbank-online.com",
+          "domain:dodois.com",
+          "domain:dodopizza.com",
+          "domain:fix-price.com",
+          "domain:zvuk.com",
+          "domain:trbcdn.net",
+          "domain:cdnvideohub.com",
+          "domain:boosty.to",
+          "domain:donationalerts.com",
+          "domain:youla.io",
+          "domain:emias.info",
+          "domain:unidraw.io"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "ip": [
+          "geoip:ru",
+          "geoip:private"
+        ],
+        "type": "field",
+        "outboundTag": "direct"
+      },
+      {
+        "type": "field",
+        "network": "tcp,udp",
+        "balancerTag": "LithuaniaBalancer"
+      }
+    ],
+    "balancers": [
+      {
+        "tag": "LithuaniaBalancer",
+        "selector": [
+          "proxy"
+        ],
+        "strategy": {
+          "type": "leastPing"
+        }
+      }
+    ],
+    "domainMatcher": "hybrid",
+    "domainStrategy": "IPIfNonMatch"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "lt1.clownland.top",
+            "port": 443,
+            "users": [
+              {
+                "id": "8ffc8da6-b64d-4461-b721-ff3a1e7297e3",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "mode": "auto",
+          "host": "lt1.clownland.top",
+          "path": "/assets/build/_app/immutable/chunks/stream-one/",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": "200-300",
+              "maxConnections": 1,
+              "hKeepAlivePeriod": 60,
+              "hMaxRequestTimes": "200-300",
+              "hMaxReusableSecs": "600-900"
+            },
+            "xPaddingBytes": "100-500",
+            "scMaxEachPostBytes": "393216-786432"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "lt1.clownland.top",
+          "enableSessionResumption": false,
+          "fingerprint": "qq",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305"
+        }
+      }
+    },
+    {
+      "tag": "proxy-2",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "lt2.clownland.top",
+            "port": 443,
+            "users": [
+              {
+                "id": "8ffc8da6-b64d-4461-b721-ff3a1e7297e3",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "mode": "auto",
+          "host": "lt2.clownland.top",
+          "path": "/assets/build/_app/immutable/chunks/stream-one/",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": "200-300",
+              "maxConnections": 1,
+              "hKeepAlivePeriod": 60,
+              "hMaxRequestTimes": "200-300",
+              "hMaxReusableSecs": "600-900"
+            },
+            "xPaddingBytes": "100-500",
+            "scMaxEachPostBytes": "393216-786432"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "lt2.clownland.top",
+          "enableSessionResumption": false,
+          "fingerprint": "qq",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305"
+        }
+      }
+    },
+    {
+      "tag": "proxy-3",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "lt3.clownland.top",
+            "port": 443,
+            "users": [
+              {
+                "id": "8ffc8da6-b64d-4461-b721-ff3a1e7297e3",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "mode": "auto",
+          "host": "lt3.clownland.top",
+          "path": "/assets/build/_app/immutable/chunks/stream-one/",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": "200-300",
+              "maxConnections": 1,
+              "hKeepAlivePeriod": 60,
+              "hMaxRequestTimes": "200-300",
+              "hMaxReusableSecs": "600-900"
+            },
+            "xPaddingBytes": "100-500",
+            "scMaxEachPostBytes": "393216-786432"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "lt3.clownland.top",
+          "enableSessionResumption": false,
+          "fingerprint": "qq",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305"
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "dns-out",
+      "protocol": "dns",
+      "settings": {
+        "blockTypes": [
+          65,
+          28
+        ],
+        "nonIPQuery": "reject"
+      }
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    },
+    {
+      "tag": "block-http",
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      }
+    }
+  ],
+  "burstObservatory": {
+    "pingConfig": {
+      "timeout": "3s",
+      "interval": "1m",
+      "sampling": 1,
+      "destination": "http://www.gstatic.com/generate_204"
+    },
+    "subjectSelector": [
+      "proxy"
+    ]
+  },
+  "remarks": "🇱🇹 Lithuania Private - 2.5 Gbit/s"
+}
