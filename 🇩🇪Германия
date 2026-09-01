@@ -1,0 +1,242 @@
+{
+  "dns": {
+    "queryStrategy": "UseIP",
+    "servers": [
+      "1.1.1.1",
+      "8.8.8.8"
+    ]
+  },
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ],
+        "enabled": true,
+        "routeOnly": false
+      },
+      "tag": "socks"
+    },
+    {
+      "listen": "127.0.0.1",
+      "port": 10809,
+      "protocol": "http",
+      "tag": "http"
+    }
+  ],
+  "log": {
+    "loglevel": "warning"
+  },
+  "outbounds": [
+    {
+      "protocol": "vless",
+      "settings": {
+        "packetEncoding": "xudp",
+        "vnext": [
+          {
+            "address": "72.56.37.36",
+            "port": 2053,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "b88f1e25-c259-486c-9749-f50418b3ebad"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "Z4c6jB-9KBN0U1mcLgP_bg5PuAG_wHF7Mw8dnZScSxA",
+          "serverName": "mts.ru",
+          "shortId": "802d309a6102f126"
+        },
+        "security": "reality"
+      },
+      "tag": "proxy"
+    },
+    {
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "UseIP"
+      },
+      "tag": "direct"
+    },
+    {
+      "protocol": "blackhole",
+      "tag": "block"
+    }
+  ],
+  "remarks": "🇩🇪 Германия 📱 Молниеносный ⚡",
+  "routing": {
+    "domainMatcher": "hybrid",
+    "domainStrategy": "IPIfNonMatch",
+    "rules": [
+      {
+        "outboundTag": "direct",
+        "protocol": [
+          "bittorrent"
+        ],
+        "type": "field"
+      },
+      {
+        "ip": [
+          "geoip:private"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "domain:steamcontent.com",
+          "domain:steampowered.com",
+          "domain:steamserver.net",
+          "domain:steamstatic.com",
+          "domain:steamusercontent.com",
+          "domain:valvesoftware.com",
+          "domain:epicgames.com",
+          "domain:unrealengine.com",
+          "domain:battle.net",
+          "domain:blizzard.com",
+          "domain:gog.com",
+          "domain:gog-statics.com",
+          "domain:ea.com",
+          "domain:dice.se",
+          "domain:ubi.com",
+          "domain:ubisoft.com",
+          "domain:rockstargames.com",
+          "domain:rockstarcontent.com",
+          "domain:apple.com",
+          "domain:icloud.com",
+          "domain:icloud-content.com",
+          "domain:cdn-apple.com",
+          "domain:mzstatic.com",
+          "domain:windowsupdate.com",
+          "domain:xboxlive.com",
+          "domain:xbox.com",
+          "domain:tencent.com",
+          "domain:qq.com",
+          "domain:gtimg.com",
+          "domain:tencentcs.com",
+          "domain:tencent-cloud.net",
+          "domain:tencentcloud.com",
+          "domain:myqcloud.com",
+          "domain:adobe.com",
+          "domain:adobe.io",
+          "domain:spotify.com",
+          "domain:scdn.co",
+          "domain:spotifycdn.com",
+          "domain:discord-cdn.com",
+          "domain:telesco.pe",
+          "domain:cdn-telegram.org",
+          "domain:yandex.ru",
+          "domain:yandex.net",
+          "domain:yandex.com",
+          "domain:ya.ru",
+          "domain:vk.com",
+          "domain:vk.me",
+          "domain:vkuseraudio.net",
+          "domain:vkuservideo.net",
+          "domain:ok.ru",
+          "domain:odnoklassniki.ru",
+          "domain:mail.ru",
+          "domain:mymail.ru",
+          "domain:list.ru",
+          "domain:rambler.ru",
+          "domain:sberbank.ru",
+          "domain:sber.ru",
+          "domain:vtb.ru",
+          "domain:alfabank.ru",
+          "domain:tinkoff.ru",
+          "domain:tbank.ru",
+          "domain:raiffeisen.ru",
+          "domain:gosuslugi.ru",
+          "domain:mos.ru",
+          "domain:nalog.gov.ru",
+          "domain:max.ru",
+          "domain:kontur.ru",
+          "domain:1c.ru",
+          "domain:ozon.ru",
+          "domain:ozon.st",
+          "domain:wildberries.ru",
+          "domain:wb.ru",
+          "domain:wbstatic.net",
+          "domain:lamoda.ru",
+          "domain:dns-shop.ru",
+          "domain:mvideo.ru",
+          "domain:eldorado.ru",
+          "domain:avito.ru",
+          "domain:avito.st",
+          "domain:auto.ru",
+          "domain:drom.ru",
+          "domain:mts.ru",
+          "domain:megafon.ru",
+          "domain:beeline.ru",
+          "domain:tele2.ru",
+          "domain:kinopoisk.ru",
+          "domain:rutube.ru",
+          "domain:2gis.ru",
+          "domain:hh.ru",
+          "domain:cdek.ru",
+          "domain:pochta.ru",
+          "domain:yastatic.net",
+          "domain:userapi.com",
+          "domain:dzen.ru",
+          "domain:sbrf.ru",
+          "domain:vtb24.ru",
+          "domain:alfa-bank.ru",
+          "domain:gazprombank.ru",
+          "domain:psb.ru",
+          "domain:open.ru",
+          "domain:nalog.ru",
+          "domain:wbbasket.ru"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "155.133.224.0/22",
+          "155.133.248.0/22",
+          "162.254.192.0/21",
+          "185.25.180.0/22",
+          "146.66.152.0/22",
+          "43.156.0.0/15",
+          "43.158.0.0/15",
+          "129.226.0.0/16",
+          "17.0.0.0/8"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "outboundTag": "block",
+        "port": "853",
+        "type": "field"
+      },
+      {
+        "network": "udp",
+        "outboundTag": "block",
+        "port": "443",
+        "type": "field"
+      },
+      {
+        "network": "tcp,udp",
+        "outboundTag": "proxy",
+        "type": "field"
+      }
+    ]
+  }
+}
