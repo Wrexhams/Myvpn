@@ -1,0 +1,2098 @@
+{
+  "dns": {
+    "hosts": {
+      "dns.google": [
+        "0.0.0.0"
+      ],
+      "dns.apple.com": [
+        "0.0.0.0"
+      ],
+      "dns.quad9.net": [
+        "0.0.0.0"
+      ],
+      "mask.icloud.com": [
+        "0.0.0.0"
+      ],
+      "doh.dns.apple.com": [
+        "0.0.0.0"
+      ],
+      "cloudflare-dns.com": [
+        "0.0.0.0"
+      ],
+      "de2.schnellmoto.de": [
+        "5.175.211.104"
+      ],
+      "de3.schnellmoto.de": [
+        "5.175.211.105"
+      ],
+      "de4.schnellmoto.de": [
+        "5.175.211.106"
+      ],
+      "de5.schnellmoto.de": [
+        "5.175.211.107"
+      ],
+      "de6.schnellmoto.de": [
+        "5.175.211.108"
+      ],
+      "de7.schnellmoto.de": [
+        "5.175.211.109"
+      ],
+      "de8.schnellmoto.de": [
+        "5.175.211.110"
+      ],
+      "de9.schnellmoto.de": [
+        "5.175.211.111"
+      ],
+      "mask-h2.icloud.com": [
+        "0.0.0.0"
+      ],
+      "de01.schnellmoto.de": [
+        "5.175.211.103"
+      ],
+      "de10.schnellmoto.de": [
+        "5.175.211.112"
+      ],
+      "de11.schnellmoto.de": [
+        "5.175.211.113"
+      ],
+      "de12.schnellmoto.de": [
+        "5.175.211.114"
+      ],
+      "de13.schnellauto.eu": [
+        "89.144.53.221"
+      ],
+      "de14.schnellauto.eu": [
+        "89.144.8.140"
+      ],
+      "de15.schnellauto.eu": [
+        "85.93.9.55"
+      ],
+      "de16.schnellauto.eu": [
+        "5.231.45.203"
+      ],
+      "de17.schnellauto.eu": [
+        "5.231.45.56"
+      ],
+      "de18.schnellauto.eu": [
+        "5.83.147.179"
+      ],
+      "de19.schnellauto.eu": [
+        "5.231.28.143"
+      ],
+      "de20.schnellauto.eu": [
+        "5.231.28.202"
+      ],
+      "de21.schnellauto.eu": [
+        "5.231.28.205"
+      ],
+      "mask-api.icloud.com": [
+        "0.0.0.0"
+      ],
+      "common.dot.dns.yandex.net": [
+        "0.0.0.0"
+      ]
+    },
+    "servers": [
+      {
+        "tag": "ParallelQuery",
+        "address": "1.1.1.1"
+      },
+      {
+        "tag": "ParallelQuery",
+        "address": "8.8.8.8"
+      },
+      {
+        "tag": "ParallelQuery",
+        "address": "9.9.9.9"
+      },
+      {
+        "tag": "YandexDNS",
+        "address": "77.88.8.8",
+        "domains": [
+          "geosite:category-ru",
+          "geosite:category-gov-ru",
+          "geosite:yandex",
+          "geosite:vk",
+          "geosite:ok",
+          "regexp:^(.+\\.)?ru$",
+          "regexp:^(.+\\.)?su$",
+          "regexp:^(.+\\.)?xn--p1ai$",
+          "domain:userapi.com",
+          "domain:vk.com",
+          "domain:vk.me",
+          "domain:vk.cc",
+          "domain:vkontakte.ru",
+          "domain:vk-cdn.net",
+          "domain:vkuser.net",
+          "domain:vkuservideo.com",
+          "domain:vkmessenger.com",
+          "domain:mycdn.me",
+          "domain:mradx.net",
+          "domain:mvk.com",
+          "domain:tamtam.chat",
+          "domain:okolo.app",
+          "domain:perekrestok.com",
+          "domain:5post.market",
+          "domain:chizhik.club",
+          "domain:x5.com",
+          "domain:x5.tech",
+          "domain:x5.group",
+          "domain:x5static.net",
+          "domain:ozon.com",
+          "domain:ozon.by",
+          "domain:ozon.kz",
+          "domain:ozonusercontent.com",
+          "domain:paywb.com",
+          "domain:okko.tv",
+          "domain:okko.sport",
+          "domain:kinopoisk-ru.clstorage.net",
+          "domain:yandex.com",
+          "domain:yandex.net",
+          "domain:yandex.by",
+          "domain:yandex.kz",
+          "domain:yandex.cloud",
+          "domain:yandexcloud.net",
+          "domain:yandexmetrica.com",
+          "domain:yastatic.net",
+          "domain:yastat.net",
+          "domain:naydex.net",
+          "domain:turbopages.org",
+          "domain:webvisor.com",
+          "domain:yads.tech",
+          "domain:avs.io",
+          "domain:aviasales.com",
+          "domain:2gis.com",
+          "domain:2gis.kz",
+          "domain:sberbank.com",
+          "domain:sber.pro",
+          "domain:giga.chat",
+          "domain:sbercloud.tech",
+          "domain:megamarket.tech",
+          "domain:lenta.com",
+          "domain:tochka.com",
+          "domain:gazprombank.com",
+          "domain:tinkoff-group.com",
+          "domain:tbank-online.com",
+          "domain:dodois.com",
+          "domain:dodopizza.com",
+          "domain:fix-price.com",
+          "domain:zvuk.com",
+          "domain:trbcdn.net",
+          "domain:cdnvideohub.com",
+          "domain:boosty.to",
+          "domain:donationalerts.com",
+          "domain:youla.io",
+          "domain:emias.info",
+          "domain:unidraw.io",
+          "domain:2ip.ru",
+          "regexp:.*\\.by$",
+          "regexp:.*\\.2gis\\.",
+          "regexp:.*\\.ozon\\.",
+          "regexp:.*\\.telega\\.",
+          "regexp:.*\\.gazprombank\\.",
+          "domain:alfabank.ru",
+          "domain:alfabank.st",
+          "domain:gazprombank.tech",
+          "domain:gazprompay.ru",
+          "domain:gpb.ru",
+          "domain:gpbmobile.ru",
+          "domain:psbank.ru",
+          "domain:psblog.ru",
+          "domain:psb.ru",
+          "domain:psb-ocenka.ru",
+          "domain:rshb.ru",
+          "domain:abr.ru",
+          "domain:baltbank.ru",
+          "domain:bankline.ru",
+          "domain:rosbank.ru",
+          "domain:pochtabank.ru",
+          "domain:vtb.ru",
+          "domain:spvb.ru",
+          "domain:sbpgpb.ru",
+          "domain:mirpayonline.ru",
+          "domain:nspk.ru",
+          "domain:dbo-dengi.online",
+          "domain:mtsdengi.ru",
+          "domain:payment.ru",
+          "domain:gorodpay.ru",
+          "domain:sber.ru",
+          "domain:sberbank.ru",
+          "domain:sberauto.com",
+          "domain:sbermarket.ru",
+          "domain:sbermegamarket.ru",
+          "domain:sbermobile.ru",
+          "domain:sberpb.ru",
+          "domain:sberdevices.ru",
+          "domain:sberdisk.ru",
+          "domain:sberindex.ru",
+          "domain:sberhealth.ru",
+          "domain:sberleasing.ru",
+          "domain:sberlogistics.ru",
+          "domain:sbercloud.ru",
+          "domain:spasibosb.ru",
+          "domain:spasibosberbank.ru",
+          "domain:sberbank-insurance.ru",
+          "domain:sberbankins.ru",
+          "domain:sbertroika.ru",
+          "domain:bps-sberbank.by",
+          "domain:sber-bank.by",
+          "domain:cdn-tinkoff.ru",
+          "domain:tinkoff.ru",
+          "domain:tbank.ru",
+          "domain:t-bank-app.ru",
+          "domain:t-j.ru",
+          "domain:t-static.ru",
+          "domain:t-technologies.ru",
+          "domain:tinkoffjournal.ru",
+          "domain:tinsurance.ru",
+          "domain:dolyame.ru",
+          "domain:phoenix-ca.ru",
+          "domain:finuslugi.ru",
+          "domain:credistory.ru",
+          "domain:banki.ru",
+          "domain:moex.com",
+          "domain:cbonds.ru",
+          "domain:sistema-capital.com",
+          "domain:alformacap.com",
+          "domain:alformacapital.com",
+          "domain:investalfabank.com",
+          "domain:beta-bank.com",
+          "domain:mail.ru",
+          "domain:imgsmail.ru",
+          "domain:my.mail.ru",
+          "domain:e.mail.ru",
+          "domain:cloud.mail.ru",
+          "domain:agent.mail.ru",
+          "domain:top-fwz1.mail.ru",
+          "domain:trk.mail.ru",
+          "domain:rs.mail.ru",
+          "domain:gosuslugi.ru",
+          "domain:gov.ru",
+          "domain:cikrf.ru",
+          "domain:res-nsdi.ru",
+          "domain:auth-nsdi.ru",
+          "domain:a.res-nsdi.ru",
+          "domain:b.res-nsdi.ru",
+          "domain:a.auth-nsdi.ru",
+          "domain:b.auth-nsdi.ru",
+          "domain:mts.ru",
+          "domain:mtscdn.ru",
+          "domain:mymts.ru",
+          "domain:megafon.ru",
+          "domain:beeline.ru",
+          "domain:rostelecom.ru",
+          "domain:rt.ru",
+          "domain:yota.ru",
+          "domain:volnamobile.ru",
+          "domain:dom.ru",
+          "domain:t2.ru",
+          "domain:tele2.ru",
+          "domain:magnit.ru",
+          "domain:magnit.com",
+          "domain:auchan.ru",
+          "domain:av.ru",
+          "domain:bristol.ru",
+          "domain:detmir.ru",
+          "domain:dixy.ru",
+          "domain:dodopizza.ru",
+          "domain:dostaevsky.ru",
+          "domain:vkusnoitochka.ru",
+          "domain:metro-cc.ru",
+          "domain:krasnoeibeloe.ru",
+          "domain:rostics.ru",
+          "domain:sushiwok.ru",
+          "domain:winelab.ru",
+          "domain:vkusvill.ru",
+          "domain:myspar.ru",
+          "domain:kazanexpress.ru",
+          "domain:dns-shop.ru",
+          "domain:eapteka.ru",
+          "domain:samokat.ru",
+          "domain:kuper.ru",
+          "domain:5ka.ru",
+          "domain:perekrestok.ru",
+          "domain:e5.ru",
+          "domain:fivepost.ru",
+          "domain:idx5.ru",
+          "domain:jx5.ru",
+          "domain:x5.ru",
+          "domain:mnogolososya.ru",
+          "domain:myapelsin.ru",
+          "domain:clubx5.ru",
+          "domain:ozon.ru",
+          "domain:ozone.ru",
+          "domain:ozonru.me",
+          "domain:wildberries.ru",
+          "domain:wb.ru",
+          "domain:wbbasket.ru",
+          "domain:wb-basket.ru",
+          "domain:wbpay.ru",
+          "domain:wibes.ru",
+          "domain:rwb.ru",
+          "domain:geobasket.ru",
+          "domain:avito.ru",
+          "domain:avito.st",
+          "domain:megamarket.ru",
+          "domain:youla.ru",
+          "domain:rzd.ru",
+          "domain:rzd-bonus.ru",
+          "domain:tutu.ru",
+          "domain:tu-tu.ru",
+          "domain:aviasales.ru",
+          "domain:taximaxim.ru",
+          "domain:taxsee.com",
+          "domain:citydrive.ru",
+          "domain:whoosh.bike",
+          "domain:ostrovok.ru",
+          "domain:blablacar.ru",
+          "domain:mosmetro.ru",
+          "domain:aeroflot.ru",
+          "domain:dellin.ru",
+          "domain:topdelivery.ru",
+          "domain:rutube.ru",
+          "domain:rutubelist.ru",
+          "domain:rtbcdn.ru",
+          "domain:kinopoisk.ru",
+          "domain:wink.ru",
+          "domain:start.ru",
+          "domain:ivi.ru",
+          "domain:premier.one",
+          "domain:smotreshka.tv",
+          "domain:beeline.tv",
+          "domain:24h.tv",
+          "domain:amediateka.ru",
+          "domain:viju.ru",
+          "domain:kinorium.com",
+          "domain:tvigle.ru",
+          "domain:playfamily.ru",
+          "domain:cdnvideo.ru",
+          "domain:vgtrk.ru",
+          "domain:1internet.tv",
+          "domain:tnt-online.ru",
+          "domain:ok.ru",
+          "domain:okcdn.ru",
+          "domain:vk.ru",
+          "domain:vk.company",
+          "domain:max.ru",
+          "domain:oneme.ru",
+          "domain:telega.info",
+          "domain:telega.me",
+          "domain:memealerts.com",
+          "domain:dzen.ru",
+          "domain:dzeninfra.ru",
+          "domain:rambler.ru",
+          "domain:gazeta.ru",
+          "domain:kp.ru",
+          "domain:rbc.ru",
+          "domain:iz.ru",
+          "domain:kommersant.ru",
+          "domain:hh.ru",
+          "domain:47news.ru",
+          "domain:russiacalling.com",
+          "domain:cloud.ru",
+          "domain:yadro.ru",
+          "domain:vk-portal.net",
+          "domain:stats.vk-portal.net",
+          "domain:1c.ru",
+          "domain:1c-bitrix.ru",
+          "domain:bitrix24.ru",
+          "domain:1cfresh.com",
+          "domain:1cloud.ru",
+          "domain:timeweb.com",
+          "domain:timeweb.cloud",
+          "domain:fastvps.ru",
+          "domain:kaspersky.ru",
+          "domain:kaspersky.com",
+          "domain:drweb.ru",
+          "domain:rustore.ru",
+          "domain:jivo.ru",
+          "domain:jivochat.com",
+          "domain:jivosite.com",
+          "domain:dadata.ru",
+          "domain:edadeal.ru",
+          "domain:edadeal.io",
+          "domain:flocktory.com",
+          "domain:mindbox.ru",
+          "domain:web-static.mindbox.ru",
+          "domain:usedesk.ru",
+          "domain:tns-counter.ru",
+          "domain:adriver.ru",
+          "domain:adfox.ru",
+          "domain:admetrica.ru",
+          "domain:weborama-tech.ru",
+          "domain:get4click.ru",
+          "domain:netmonet.co",
+          "domain:tips.tips",
+          "domain:qms.ru",
+          "domain:dnevnik.ru",
+          "domain:21-school.ru",
+          "domain:centraluniversity.ru",
+          "domain:cu.ru",
+          "domain:svoy.academy",
+          "domain:lemanapro.ru",
+          "domain:lmru.tech",
+          "domain:receive-sentry.lmru.tech",
+          "domain:domclick.ru",
+          "domain:afisha.ru",
+          "domain:citymobil.ru",
+          "domain:2gis.ru",
+          "domain:zvuk-b2b.com",
+          "domain:krd.ru",
+          "domain:krasyar.ru",
+          "domain:myip.ru",
+          "domain:ip-api.ru",
+          "domain:checkip.ru",
+          "domain:ip.nic.ru",
+          "full:instant.arubanetworks.com",
+          "full:setmeup.arubanetworks.com",
+          "full:asusrouter.com",
+          "full:router.asus.com",
+          "full:www.asusrouter.com",
+          "full:oasisauth.h3c.com",
+          "full:routerlogin.com",
+          "full:www.routerlogin.com",
+          "full:tplogin.cn",
+          "full:tplinkwifi.net",
+          "full:miwifi.com",
+          "full:www.miwifi.com",
+          "domain:zte.home",
+          "domain:my.router",
+          "domain:hiwifi.com",
+          "domain:tendawifi.com",
+          "domain:leike.cc",
+          "domain:router.ctc",
+          "domain:phicomm.me",
+          "domain:peiluyou.com",
+          "in-addr.arpa",
+          "ip6.arpa",
+          "home.arpa",
+          "ts.net",
+          "plex.direct"
+        ],
+        "skipFallback": true
+      },
+      "1.1.1.1",
+      "1.0.0.1"
+    ],
+    "queryStrategy": "UseIP",
+    "enableParallelQuery": true
+  },
+  "fakedns": [
+    {
+      "ipPool": "198.18.0.0/15",
+      "poolSize": 65535
+    }
+  ],
+  "routing": {
+    "rules": [
+      {
+        "port": "53",
+        "type": "field",
+        "network": "tcp,udp",
+        "outboundTag": "dns-out"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "full:cloudflare-dns.com",
+          "full:dns.cloudflare.com",
+          "full:dns.google",
+          "full:dns.quad9.net",
+          "full:common.dot.dns.yandex.net",
+          "domain:mask.icloud.com",
+          "domain:mask-h2.icloud.com",
+          "domain:mask-api.icloud.com",
+          "domain:dns.apple.com",
+          "domain:doh.dns.apple.com"
+        ],
+        "ruleTag": "block-doh",
+        "outboundTag": "block"
+      },
+      {
+        "port": "443",
+        "type": "field",
+        "network": "udp",
+        "outboundTag": "block"
+      },
+      {
+        "ip": [
+          "9.9.9.9",
+          "149.112.112.112",
+          "8.8.8.8",
+          "8.8.4.4",
+          "208.67.222.222",
+          "208.67.220.220",
+          "185.228.168.9",
+          "185.228.169.9"
+        ],
+        "port": "53,443,853,5353",
+        "type": "field",
+        "network": "udp",
+        "outboundTag": "block"
+      },
+      {
+        "ip": [
+          "9.9.9.9",
+          "149.112.112.112",
+          "8.8.8.8",
+          "8.8.4.4",
+          "208.67.222.222",
+          "208.67.220.220",
+          "185.228.168.9",
+          "185.228.169.9"
+        ],
+        "port": "53,443,853",
+        "type": "field",
+        "network": "tcp",
+        "outboundTag": "block-http"
+      },
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "block"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "geosite:category-ru",
+          "geosite:category-gov-ru",
+          "geosite:yandex",
+          "geosite:vk",
+          "geosite:ok",
+          "regexp:^(.+\\.)?ru$",
+          "regexp:^(.+\\.)?su$",
+          "regexp:^(.+\\.)?xn--p1ai$",
+          "domain:userapi.com",
+          "domain:vk.com",
+          "domain:vk.me",
+          "domain:vk.cc",
+          "domain:vkontakte.ru",
+          "domain:vk-cdn.net",
+          "domain:vkuser.net",
+          "domain:vkuservideo.com",
+          "domain:vkmessenger.com",
+          "domain:mycdn.me",
+          "domain:mradx.net",
+          "domain:mvk.com",
+          "domain:tamtam.chat",
+          "domain:okolo.app",
+          "domain:perekrestok.com",
+          "domain:5post.market",
+          "domain:chizhik.club",
+          "domain:x5.com",
+          "domain:x5.tech",
+          "domain:x5.group",
+          "domain:x5static.net",
+          "domain:ozon.com",
+          "domain:ozon.by",
+          "domain:ozon.kz",
+          "domain:ozonusercontent.com",
+          "domain:paywb.com",
+          "domain:okko.tv",
+          "domain:okko.sport",
+          "domain:kinopoisk-ru.clstorage.net",
+          "domain:yandex.com",
+          "domain:yandex.net",
+          "domain:yandex.by",
+          "domain:yandex.kz",
+          "domain:yandex.cloud",
+          "domain:yandexcloud.net",
+          "domain:yandexmetrica.com",
+          "domain:yastatic.net",
+          "domain:yastat.net",
+          "domain:naydex.net",
+          "domain:turbopages.org",
+          "domain:webvisor.com",
+          "domain:yads.tech",
+          "domain:avs.io",
+          "domain:aviasales.com",
+          "domain:2gis.com",
+          "domain:2gis.kz",
+          "domain:sberbank.com",
+          "domain:sber.pro",
+          "domain:giga.chat",
+          "domain:sbercloud.tech",
+          "domain:megamarket.tech",
+          "domain:lenta.com",
+          "domain:tochka.com",
+          "domain:gazprombank.com",
+          "domain:tinkoff-group.com",
+          "domain:tbank-online.com",
+          "domain:dodois.com",
+          "domain:dodopizza.com",
+          "domain:fix-price.com",
+          "domain:zvuk.com",
+          "domain:trbcdn.net",
+          "domain:cdnvideohub.com",
+          "domain:boosty.to",
+          "domain:donationalerts.com",
+          "domain:youla.io",
+          "domain:emias.info",
+          "domain:unidraw.io",
+          "domain:2ip.ru",
+          "regexp:.*\\.by$",
+          "regexp:.*\\.2gis\\.",
+          "regexp:.*\\.ozon\\.",
+          "regexp:.*\\.telega\\.",
+          "regexp:.*\\.gazprombank\\.",
+          "domain:alfabank.ru",
+          "domain:alfabank.st",
+          "domain:gazprombank.tech",
+          "domain:gazprompay.ru",
+          "domain:gpb.ru",
+          "domain:gpbmobile.ru",
+          "domain:psbank.ru",
+          "domain:psblog.ru",
+          "domain:psb.ru",
+          "domain:psb-ocenka.ru",
+          "domain:rshb.ru",
+          "domain:abr.ru",
+          "domain:baltbank.ru",
+          "domain:bankline.ru",
+          "domain:rosbank.ru",
+          "domain:pochtabank.ru",
+          "domain:vtb.ru",
+          "domain:spvb.ru",
+          "domain:sbpgpb.ru",
+          "domain:mirpayonline.ru",
+          "domain:nspk.ru",
+          "domain:dbo-dengi.online",
+          "domain:mtsdengi.ru",
+          "domain:payment.ru",
+          "domain:gorodpay.ru",
+          "domain:sber.ru",
+          "domain:sberbank.ru",
+          "domain:sberauto.com",
+          "domain:sbermarket.ru",
+          "domain:sbermegamarket.ru",
+          "domain:sbermobile.ru",
+          "domain:sberpb.ru",
+          "domain:sberdevices.ru",
+          "domain:sberdisk.ru",
+          "domain:sberindex.ru",
+          "domain:sberhealth.ru",
+          "domain:sberleasing.ru",
+          "domain:sberlogistics.ru",
+          "domain:sbercloud.ru",
+          "domain:spasibosb.ru",
+          "domain:spasibosberbank.ru",
+          "domain:sberbank-insurance.ru",
+          "domain:sberbankins.ru",
+          "domain:sbertroika.ru",
+          "domain:bps-sberbank.by",
+          "domain:sber-bank.by",
+          "domain:cdn-tinkoff.ru",
+          "domain:tinkoff.ru",
+          "domain:tbank.ru",
+          "domain:t-bank-app.ru",
+          "domain:t-j.ru",
+          "domain:t-static.ru",
+          "domain:t-technologies.ru",
+          "domain:tinkoffjournal.ru",
+          "domain:tinsurance.ru",
+          "domain:dolyame.ru",
+          "domain:phoenix-ca.ru",
+          "domain:finuslugi.ru",
+          "domain:credistory.ru",
+          "domain:banki.ru",
+          "domain:moex.com",
+          "domain:cbonds.ru",
+          "domain:sistema-capital.com",
+          "domain:alformacap.com",
+          "domain:alformacapital.com",
+          "domain:investalfabank.com",
+          "domain:beta-bank.com",
+          "domain:mail.ru",
+          "domain:imgsmail.ru",
+          "domain:my.mail.ru",
+          "domain:e.mail.ru",
+          "domain:cloud.mail.ru",
+          "domain:agent.mail.ru",
+          "domain:top-fwz1.mail.ru",
+          "domain:trk.mail.ru",
+          "domain:rs.mail.ru",
+          "domain:gosuslugi.ru",
+          "domain:gov.ru",
+          "domain:cikrf.ru",
+          "domain:res-nsdi.ru",
+          "domain:auth-nsdi.ru",
+          "domain:a.res-nsdi.ru",
+          "domain:b.res-nsdi.ru",
+          "domain:a.auth-nsdi.ru",
+          "domain:b.auth-nsdi.ru",
+          "domain:mts.ru",
+          "domain:mtscdn.ru",
+          "domain:mymts.ru",
+          "domain:megafon.ru",
+          "domain:beeline.ru",
+          "domain:rostelecom.ru",
+          "domain:rt.ru",
+          "domain:yota.ru",
+          "domain:volnamobile.ru",
+          "domain:dom.ru",
+          "domain:t2.ru",
+          "domain:tele2.ru",
+          "domain:magnit.ru",
+          "domain:magnit.com",
+          "domain:auchan.ru",
+          "domain:av.ru",
+          "domain:bristol.ru",
+          "domain:detmir.ru",
+          "domain:dixy.ru",
+          "domain:dodopizza.ru",
+          "domain:dostaevsky.ru",
+          "domain:vkusnoitochka.ru",
+          "domain:metro-cc.ru",
+          "domain:krasnoeibeloe.ru",
+          "domain:rostics.ru",
+          "domain:sushiwok.ru",
+          "domain:winelab.ru",
+          "domain:vkusvill.ru",
+          "domain:myspar.ru",
+          "domain:kazanexpress.ru",
+          "domain:dns-shop.ru",
+          "domain:eapteka.ru",
+          "domain:samokat.ru",
+          "domain:kuper.ru",
+          "domain:5ka.ru",
+          "domain:perekrestok.ru",
+          "domain:e5.ru",
+          "domain:fivepost.ru",
+          "domain:idx5.ru",
+          "domain:jx5.ru",
+          "domain:x5.ru",
+          "domain:mnogolososya.ru",
+          "domain:myapelsin.ru",
+          "domain:clubx5.ru",
+          "domain:ozon.ru",
+          "domain:ozone.ru",
+          "domain:ozonru.me",
+          "domain:wildberries.ru",
+          "domain:wb.ru",
+          "domain:wbbasket.ru",
+          "domain:wb-basket.ru",
+          "domain:wbpay.ru",
+          "domain:wibes.ru",
+          "domain:rwb.ru",
+          "domain:geobasket.ru",
+          "domain:avito.ru",
+          "domain:avito.st",
+          "domain:megamarket.ru",
+          "domain:youla.ru",
+          "domain:rzd.ru",
+          "domain:rzd-bonus.ru",
+          "domain:tutu.ru",
+          "domain:tu-tu.ru",
+          "domain:aviasales.ru",
+          "domain:taximaxim.ru",
+          "domain:taxsee.com",
+          "domain:citydrive.ru",
+          "domain:whoosh.bike",
+          "domain:ostrovok.ru",
+          "domain:blablacar.ru",
+          "domain:mosmetro.ru",
+          "domain:aeroflot.ru",
+          "domain:dellin.ru",
+          "domain:topdelivery.ru",
+          "domain:rutube.ru",
+          "domain:rutubelist.ru",
+          "domain:rtbcdn.ru",
+          "domain:kinopoisk.ru",
+          "domain:wink.ru",
+          "domain:start.ru",
+          "domain:ivi.ru",
+          "domain:premier.one",
+          "domain:smotreshka.tv",
+          "domain:beeline.tv",
+          "domain:24h.tv",
+          "domain:amediateka.ru",
+          "domain:viju.ru",
+          "domain:kinorium.com",
+          "domain:tvigle.ru",
+          "domain:playfamily.ru",
+          "domain:cdnvideo.ru",
+          "domain:vgtrk.ru",
+          "domain:1internet.tv",
+          "domain:tnt-online.ru",
+          "domain:ok.ru",
+          "domain:okcdn.ru",
+          "domain:vk.ru",
+          "domain:vk.company",
+          "domain:max.ru",
+          "domain:oneme.ru",
+          "domain:telega.info",
+          "domain:telega.me",
+          "domain:memealerts.com",
+          "domain:dzen.ru",
+          "domain:dzeninfra.ru",
+          "domain:rambler.ru",
+          "domain:gazeta.ru",
+          "domain:kp.ru",
+          "domain:rbc.ru",
+          "domain:iz.ru",
+          "domain:kommersant.ru",
+          "domain:hh.ru",
+          "domain:47news.ru",
+          "domain:russiacalling.com",
+          "domain:cloud.ru",
+          "domain:yadro.ru",
+          "domain:vk-portal.net",
+          "domain:stats.vk-portal.net",
+          "domain:1c.ru",
+          "domain:1c-bitrix.ru",
+          "domain:bitrix24.ru",
+          "domain:1cfresh.com",
+          "domain:1cloud.ru",
+          "domain:timeweb.com",
+          "domain:timeweb.cloud",
+          "domain:fastvps.ru",
+          "domain:kaspersky.ru",
+          "domain:kaspersky.com",
+          "domain:drweb.ru",
+          "domain:rustore.ru",
+          "domain:jivo.ru",
+          "domain:jivochat.com",
+          "domain:jivosite.com",
+          "domain:dadata.ru",
+          "domain:edadeal.ru",
+          "domain:edadeal.io",
+          "domain:flocktory.com",
+          "domain:mindbox.ru",
+          "domain:web-static.mindbox.ru",
+          "domain:usedesk.ru",
+          "domain:tns-counter.ru",
+          "domain:adriver.ru",
+          "domain:adfox.ru",
+          "domain:admetrica.ru",
+          "domain:weborama-tech.ru",
+          "domain:get4click.ru",
+          "domain:netmonet.co",
+          "domain:tips.tips",
+          "domain:qms.ru",
+          "domain:dnevnik.ru",
+          "domain:21-school.ru",
+          "domain:centraluniversity.ru",
+          "domain:cu.ru",
+          "domain:svoy.academy",
+          "domain:lemanapro.ru",
+          "domain:lmru.tech",
+          "domain:receive-sentry.lmru.tech",
+          "domain:domclick.ru",
+          "domain:afisha.ru",
+          "domain:citymobil.ru",
+          "domain:2gis.ru",
+          "domain:zvuk-b2b.com",
+          "domain:krd.ru",
+          "domain:krasyar.ru",
+          "domain:myip.ru",
+          "domain:ip-api.ru",
+          "domain:checkip.ru",
+          "domain:ip.nic.ru",
+          "full:instant.arubanetworks.com",
+          "full:setmeup.arubanetworks.com",
+          "full:asusrouter.com",
+          "full:router.asus.com",
+          "full:www.asusrouter.com",
+          "full:oasisauth.h3c.com",
+          "full:routerlogin.com",
+          "full:www.routerlogin.com",
+          "full:tplogin.cn",
+          "full:tplinkwifi.net",
+          "full:miwifi.com",
+          "full:www.miwifi.com",
+          "domain:zte.home",
+          "domain:my.router",
+          "domain:hiwifi.com",
+          "domain:tendawifi.com",
+          "domain:leike.cc",
+          "domain:router.ctc",
+          "domain:phicomm.me",
+          "domain:peiluyou.com",
+          "in-addr.arpa",
+          "ip6.arpa",
+          "home.arpa",
+          "ts.net",
+          "plex.direct"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "ip": [
+          "geoip:ru",
+          "geoip:private"
+        ],
+        "type": "field",
+        "outboundTag": "direct"
+      },
+      {
+        "ip": [
+          "198.18.0.0/15"
+        ],
+        "type": "field",
+        "ruleTag": "drop-leaked-fakeip",
+        "outboundTag": "block"
+      },
+      {
+        "type": "field",
+        "network": "tcp,udp",
+        "balancerTag": "Germany2Balancer"
+      }
+    ],
+    "balancers": [
+      {
+        "tag": "Germany2Balancer",
+        "selector": [
+          "proxy"
+        ],
+        "strategy": {
+          "type": "leastPing"
+        }
+      }
+    ],
+    "domainMatcher": "hybrid",
+    "domainStrategy": "IPIfNonMatch"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "fakedns",
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "de01.schnellmoto.de",
+            "port": 443,
+            "users": [
+              {
+                "id": "8ffc8da6-b64d-4461-b721-ff3a1e7297e3",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "mode": "auto",
+          "host": "de01.schnellmoto.de",
+          "path": "/assets/build/_app/immutable/chunks/stream-one/",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": "200-300",
+              "maxConnections": 1,
+              "hKeepAlivePeriod": 60,
+              "hMaxRequestTimes": "200-300",
+              "hMaxReusableSecs": "600-900"
+            },
+            "noSSEHeader": false,
+            "noGRPCHeader": false,
+            "xPaddingBytes": "100-500",
+            "scMaxEachPostBytes": "393216-786432",
+            "scMinPostsIntervalMs": "30",
+            "scStreamUpServerSecs": "20-80"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "de01.schnellmoto.de",
+          "enableSessionResumption": false,
+          "fingerprint": "edge",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305"
+        }
+      }
+    },
+    {
+      "tag": "proxy-2",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "de2.schnellmoto.de",
+            "port": 443,
+            "users": [
+              {
+                "id": "8ffc8da6-b64d-4461-b721-ff3a1e7297e3",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "mode": "auto",
+          "host": "de2.schnellmoto.de",
+          "path": "/assets/build/_app/immutable/chunks/stream-one/",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": "200-300",
+              "maxConnections": 1,
+              "hKeepAlivePeriod": 60,
+              "hMaxRequestTimes": "200-300",
+              "hMaxReusableSecs": "600-900"
+            },
+            "noSSEHeader": false,
+            "noGRPCHeader": false,
+            "xPaddingBytes": "100-500",
+            "scMaxEachPostBytes": "393216-786432",
+            "scMinPostsIntervalMs": "30",
+            "scStreamUpServerSecs": "20-80"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "de2.schnellmoto.de",
+          "enableSessionResumption": false,
+          "fingerprint": "edge",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305"
+        }
+      }
+    },
+    {
+      "tag": "proxy-3",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "de3.schnellmoto.de",
+            "port": 443,
+            "users": [
+              {
+                "id": "8ffc8da6-b64d-4461-b721-ff3a1e7297e3",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "mode": "auto",
+          "host": "de3.schnellmoto.de",
+          "path": "/assets/build/_app/immutable/chunks/stream-one/",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": "200-300",
+              "maxConnections": 1,
+              "hKeepAlivePeriod": 60,
+              "hMaxRequestTimes": "200-300",
+              "hMaxReusableSecs": "600-900"
+            },
+            "noSSEHeader": false,
+            "noGRPCHeader": false,
+            "xPaddingBytes": "100-500",
+            "scMaxEachPostBytes": "393216-786432",
+            "scMinPostsIntervalMs": "30",
+            "scStreamUpServerSecs": "20-80"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "de3.schnellmoto.de",
+          "enableSessionResumption": false,
+          "fingerprint": "edge",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305"
+        }
+      }
+    },
+    {
+      "tag": "proxy-4",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "de4.schnellmoto.de",
+            "port": 443,
+            "users": [
+              {
+                "id": "8ffc8da6-b64d-4461-b721-ff3a1e7297e3",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "mode": "auto",
+          "host": "de4.schnellmoto.de",
+          "path": "/assets/build/_app/immutable/chunks/stream-one/",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": "200-300",
+              "maxConnections": 1,
+              "hKeepAlivePeriod": 60,
+              "hMaxRequestTimes": "200-300",
+              "hMaxReusableSecs": "600-900"
+            },
+            "noSSEHeader": false,
+            "noGRPCHeader": false,
+            "xPaddingBytes": "100-500",
+            "scMaxEachPostBytes": "393216-786432",
+            "scMinPostsIntervalMs": "30",
+            "scStreamUpServerSecs": "20-80"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "de4.schnellmoto.de",
+          "enableSessionResumption": false,
+          "fingerprint": "edge",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305"
+        }
+      }
+    },
+    {
+      "tag": "proxy-5",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "de5.schnellmoto.de",
+            "port": 443,
+            "users": [
+              {
+                "id": "8ffc8da6-b64d-4461-b721-ff3a1e7297e3",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "mode": "auto",
+          "host": "de5.schnellmoto.de",
+          "path": "/assets/build/_app/immutable/chunks/stream-one/",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": "200-300",
+              "maxConnections": 1,
+              "hKeepAlivePeriod": 60,
+              "hMaxRequestTimes": "200-300",
+              "hMaxReusableSecs": "600-900"
+            },
+            "noSSEHeader": false,
+            "noGRPCHeader": false,
+            "xPaddingBytes": "100-500",
+            "scMaxEachPostBytes": "393216-786432",
+            "scMinPostsIntervalMs": "30",
+            "scStreamUpServerSecs": "20-80"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "de5.schnellmoto.de",
+          "enableSessionResumption": false,
+          "fingerprint": "edge",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305"
+        }
+      }
+    },
+    {
+      "tag": "proxy-6",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "de6.schnellmoto.de",
+            "port": 443,
+            "users": [
+              {
+                "id": "8ffc8da6-b64d-4461-b721-ff3a1e7297e3",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "mode": "auto",
+          "host": "de6.schnellmoto.de",
+          "path": "/assets/build/_app/immutable/chunks/stream-one/",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": "200-300",
+              "maxConnections": 1,
+              "hKeepAlivePeriod": 60,
+              "hMaxRequestTimes": "200-300",
+              "hMaxReusableSecs": "600-900"
+            },
+            "noSSEHeader": false,
+            "noGRPCHeader": false,
+            "xPaddingBytes": "100-500",
+            "scMaxEachPostBytes": "393216-786432",
+            "scMinPostsIntervalMs": "30",
+            "scStreamUpServerSecs": "20-80"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "de6.schnellmoto.de",
+          "enableSessionResumption": false,
+          "fingerprint": "edge",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305"
+        }
+      }
+    },
+    {
+      "tag": "proxy-7",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "de7.schnellmoto.de",
+            "port": 443,
+            "users": [
+              {
+                "id": "8ffc8da6-b64d-4461-b721-ff3a1e7297e3",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "mode": "auto",
+          "host": "de7.schnellmoto.de",
+          "path": "/assets/build/_app/immutable/chunks/stream-one/",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": "200-300",
+              "maxConnections": 1,
+              "hKeepAlivePeriod": 60,
+              "hMaxRequestTimes": "200-300",
+              "hMaxReusableSecs": "600-900"
+            },
+            "noSSEHeader": false,
+            "noGRPCHeader": false,
+            "xPaddingBytes": "100-500",
+            "scMaxEachPostBytes": "393216-786432",
+            "scMinPostsIntervalMs": "30",
+            "scStreamUpServerSecs": "20-80"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "de7.schnellmoto.de",
+          "enableSessionResumption": false,
+          "fingerprint": "edge",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305"
+        }
+      }
+    },
+    {
+      "tag": "proxy-8",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "de8.schnellmoto.de",
+            "port": 443,
+            "users": [
+              {
+                "id": "8ffc8da6-b64d-4461-b721-ff3a1e7297e3",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "mode": "auto",
+          "host": "de8.schnellmoto.de",
+          "path": "/assets/build/_app/immutable/chunks/stream-one/",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": "200-300",
+              "maxConnections": 1,
+              "hKeepAlivePeriod": 60,
+              "hMaxRequestTimes": "200-300",
+              "hMaxReusableSecs": "600-900"
+            },
+            "noSSEHeader": false,
+            "noGRPCHeader": false,
+            "xPaddingBytes": "100-500",
+            "scMaxEachPostBytes": "393216-786432",
+            "scMinPostsIntervalMs": "30",
+            "scStreamUpServerSecs": "20-80"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "de8.schnellmoto.de",
+          "enableSessionResumption": false,
+          "fingerprint": "edge",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305"
+        }
+      }
+    },
+    {
+      "tag": "proxy-9",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "de9.schnellmoto.de",
+            "port": 443,
+            "users": [
+              {
+                "id": "8ffc8da6-b64d-4461-b721-ff3a1e7297e3",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "mode": "auto",
+          "host": "de9.schnellmoto.de",
+          "path": "/assets/build/_app/immutable/chunks/stream-one/",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": "200-300",
+              "maxConnections": 1,
+              "hKeepAlivePeriod": 60,
+              "hMaxRequestTimes": "200-300",
+              "hMaxReusableSecs": "600-900"
+            },
+            "noSSEHeader": false,
+            "noGRPCHeader": false,
+            "xPaddingBytes": "100-500",
+            "scMaxEachPostBytes": "393216-786432",
+            "scMinPostsIntervalMs": "30",
+            "scStreamUpServerSecs": "20-80"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "de9.schnellmoto.de",
+          "enableSessionResumption": false,
+          "fingerprint": "edge",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305"
+        }
+      }
+    },
+    {
+      "tag": "proxy-10",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "de10.schnellmoto.de",
+            "port": 443,
+            "users": [
+              {
+                "id": "8ffc8da6-b64d-4461-b721-ff3a1e7297e3",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "mode": "auto",
+          "host": "de10.schnellmoto.de",
+          "path": "/assets/build/_app/immutable/chunks/stream-one/",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": "200-300",
+              "maxConnections": 1,
+              "hKeepAlivePeriod": 60,
+              "hMaxRequestTimes": "200-300",
+              "hMaxReusableSecs": "600-900"
+            },
+            "noSSEHeader": false,
+            "noGRPCHeader": false,
+            "xPaddingBytes": "100-500",
+            "scMaxEachPostBytes": "393216-786432",
+            "scMinPostsIntervalMs": "30",
+            "scStreamUpServerSecs": "20-80"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "de10.schnellmoto.de",
+          "enableSessionResumption": false,
+          "fingerprint": "edge",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305"
+        }
+      }
+    },
+    {
+      "tag": "proxy-11",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "de11.schnellmoto.de",
+            "port": 443,
+            "users": [
+              {
+                "id": "8ffc8da6-b64d-4461-b721-ff3a1e7297e3",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "mode": "auto",
+          "host": "de11.schnellmoto.de",
+          "path": "/assets/build/_app/immutable/chunks/stream-one/",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": "200-300",
+              "maxConnections": 1,
+              "hKeepAlivePeriod": 60,
+              "hMaxRequestTimes": "200-300",
+              "hMaxReusableSecs": "600-900"
+            },
+            "noSSEHeader": false,
+            "noGRPCHeader": false,
+            "xPaddingBytes": "100-500",
+            "scMaxEachPostBytes": "393216-786432",
+            "scMinPostsIntervalMs": "30",
+            "scStreamUpServerSecs": "20-80"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "de11.schnellmoto.de",
+          "enableSessionResumption": false,
+          "fingerprint": "edge",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305"
+        }
+      }
+    },
+    {
+      "tag": "proxy-12",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "de12.schnellmoto.de",
+            "port": 443,
+            "users": [
+              {
+                "id": "8ffc8da6-b64d-4461-b721-ff3a1e7297e3",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "mode": "auto",
+          "host": "de12.schnellmoto.de",
+          "path": "/assets/build/_app/immutable/chunks/stream-one/",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": "200-300",
+              "maxConnections": 1,
+              "hKeepAlivePeriod": 60,
+              "hMaxRequestTimes": "200-300",
+              "hMaxReusableSecs": "600-900"
+            },
+            "noSSEHeader": false,
+            "noGRPCHeader": false,
+            "xPaddingBytes": "100-500",
+            "scMaxEachPostBytes": "393216-786432",
+            "scMinPostsIntervalMs": "30",
+            "scStreamUpServerSecs": "20-80"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "de12.schnellmoto.de",
+          "enableSessionResumption": false,
+          "fingerprint": "edge",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305"
+        }
+      }
+    },
+    {
+      "tag": "proxy-13",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "de13.schnellauto.eu",
+            "port": 443,
+            "users": [
+              {
+                "id": "8ffc8da6-b64d-4461-b721-ff3a1e7297e3",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "mode": "auto",
+          "host": "de13.schnellauto.eu",
+          "path": "/assets/build/_app/immutable/chunks/stream-one/",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": "200-300",
+              "maxConnections": 1,
+              "hKeepAlivePeriod": 60,
+              "hMaxRequestTimes": "200-300",
+              "hMaxReusableSecs": "600-900"
+            },
+            "xPaddingBytes": "100-500",
+            "scMaxEachPostBytes": "393216-786432"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "de13.schnellauto.eu",
+          "enableSessionResumption": false,
+          "fingerprint": "edge",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305"
+        }
+      }
+    },
+    {
+      "tag": "proxy-14",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "de14.schnellauto.eu",
+            "port": 443,
+            "users": [
+              {
+                "id": "8ffc8da6-b64d-4461-b721-ff3a1e7297e3",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "mode": "auto",
+          "host": "de14.schnellauto.eu",
+          "path": "/assets/build/_app/immutable/chunks/stream-one/",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": "200-300",
+              "maxConnections": 1,
+              "hKeepAlivePeriod": 60,
+              "hMaxRequestTimes": "200-300",
+              "hMaxReusableSecs": "600-900"
+            },
+            "xPaddingBytes": "100-500",
+            "scMaxEachPostBytes": "393216-786432"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "de14.schnellauto.eu",
+          "enableSessionResumption": false,
+          "fingerprint": "edge",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305"
+        }
+      }
+    },
+    {
+      "tag": "proxy-15",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "de15.schnellauto.eu",
+            "port": 443,
+            "users": [
+              {
+                "id": "8ffc8da6-b64d-4461-b721-ff3a1e7297e3",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "mode": "auto",
+          "host": "de15.schnellauto.eu",
+          "path": "/assets/build/_app/immutable/chunks/stream-one/",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": "200-300",
+              "maxConnections": 1,
+              "hKeepAlivePeriod": 60,
+              "hMaxRequestTimes": "200-300",
+              "hMaxReusableSecs": "600-900"
+            },
+            "xPaddingBytes": "100-500",
+            "scMaxEachPostBytes": "393216-786432"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "de15.schnellauto.eu",
+          "enableSessionResumption": false,
+          "fingerprint": "edge",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305"
+        }
+      }
+    },
+    {
+      "tag": "proxy-16",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "de16.schnellauto.eu",
+            "port": 443,
+            "users": [
+              {
+                "id": "8ffc8da6-b64d-4461-b721-ff3a1e7297e3",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "mode": "auto",
+          "host": "de16.schnellauto.eu",
+          "path": "/assets/build/_app/immutable/chunks/stream-one/",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": "200-300",
+              "maxConnections": 1,
+              "hKeepAlivePeriod": 60,
+              "hMaxRequestTimes": "200-300",
+              "hMaxReusableSecs": "600-900"
+            },
+            "xPaddingBytes": "100-500",
+            "scMaxEachPostBytes": "393216-786432"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "de16.schnellauto.eu",
+          "enableSessionResumption": false,
+          "fingerprint": "edge",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305"
+        }
+      }
+    },
+    {
+      "tag": "proxy-17",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "de17.schnellauto.eu",
+            "port": 443,
+            "users": [
+              {
+                "id": "8ffc8da6-b64d-4461-b721-ff3a1e7297e3",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "mode": "auto",
+          "host": "de17.schnellauto.eu",
+          "path": "/assets/build/_app/immutable/chunks/stream-one/",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": "200-300",
+              "maxConnections": 1,
+              "hKeepAlivePeriod": 60,
+              "hMaxRequestTimes": "200-300",
+              "hMaxReusableSecs": "600-900"
+            },
+            "xPaddingBytes": "100-500",
+            "scMaxEachPostBytes": "393216-786432"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "de17.schnellauto.eu",
+          "enableSessionResumption": false,
+          "fingerprint": "edge",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305"
+        }
+      }
+    },
+    {
+      "tag": "proxy-18",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "de18.schnellauto.eu",
+            "port": 443,
+            "users": [
+              {
+                "id": "8ffc8da6-b64d-4461-b721-ff3a1e7297e3",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "mode": "auto",
+          "host": "de18.schnellauto.eu",
+          "path": "/assets/build/_app/immutable/chunks/stream-one/",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": "200-300",
+              "maxConnections": 1,
+              "hKeepAlivePeriod": 60,
+              "hMaxRequestTimes": "200-300",
+              "hMaxReusableSecs": "600-900"
+            },
+            "xPaddingBytes": "100-500",
+            "scMaxEachPostBytes": "393216-786432"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "de18.schnellauto.eu",
+          "enableSessionResumption": false,
+          "fingerprint": "edge",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305"
+        }
+      }
+    },
+    {
+      "tag": "proxy-19",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "de19.schnellauto.eu",
+            "port": 443,
+            "users": [
+              {
+                "id": "8ffc8da6-b64d-4461-b721-ff3a1e7297e3",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "mode": "auto",
+          "host": "de19.schnellauto.eu",
+          "path": "/assets/build/_app/immutable/chunks/stream-one/",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": "200-300",
+              "maxConnections": 1,
+              "hKeepAlivePeriod": 60,
+              "hMaxRequestTimes": "200-300",
+              "hMaxReusableSecs": "600-900"
+            },
+            "xPaddingBytes": "100-500",
+            "scMaxEachPostBytes": "393216-786432"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "de19.schnellauto.eu",
+          "enableSessionResumption": false,
+          "fingerprint": "edge",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305"
+        }
+      }
+    },
+    {
+      "tag": "proxy-20",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "de20.schnellauto.eu",
+            "port": 443,
+            "users": [
+              {
+                "id": "8ffc8da6-b64d-4461-b721-ff3a1e7297e3",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "mode": "auto",
+          "host": "de20.schnellauto.eu",
+          "path": "/assets/build/_app/immutable/chunks/stream-one/",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": "200-300",
+              "maxConnections": 1,
+              "hKeepAlivePeriod": 60,
+              "hMaxRequestTimes": "200-300",
+              "hMaxReusableSecs": "600-900"
+            },
+            "xPaddingBytes": "100-500",
+            "scMaxEachPostBytes": "393216-786432"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "de20.schnellauto.eu",
+          "enableSessionResumption": false,
+          "fingerprint": "edge",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305"
+        }
+      }
+    },
+    {
+      "tag": "proxy-21",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "de21.schnellauto.eu",
+            "port": 443,
+            "users": [
+              {
+                "id": "8ffc8da6-b64d-4461-b721-ff3a1e7297e3",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "mode": "auto",
+          "host": "de21.schnellauto.eu",
+          "path": "/assets/build/_app/immutable/chunks/stream-one/",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": "200-300",
+              "maxConnections": 1,
+              "hKeepAlivePeriod": 60,
+              "hMaxRequestTimes": "200-300",
+              "hMaxReusableSecs": "600-900"
+            },
+            "xPaddingBytes": "100-500",
+            "scMaxEachPostBytes": "393216-786432"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "de21.schnellauto.eu",
+          "enableSessionResumption": false,
+          "fingerprint": "edge",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305"
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "dns-out",
+      "protocol": "dns",
+      "settings": {
+        "blockTypes": [
+          65,
+          28
+        ],
+        "nonIPQuery": "reject"
+      }
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    },
+    {
+      "tag": "block-http",
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      }
+    }
+  ],
+  "burstObservatory": {
+    "pingConfig": {
+      "timeout": "6s",
+      "interval": "1m",
+      "sampling": 2,
+      "destination": "http://www.gstatic.com/generate_204"
+    },
+    "subjectSelector": [
+      "proxy"
+    ]
+  },
+  "remarks": "🇩🇪 Germany #1 Private - 10 Gbit/s"
+}
