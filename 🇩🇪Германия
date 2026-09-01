@@ -79,7 +79,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "🇩🇪 Германия 📱 Молниеносный ⚡",
+  "remarks": "🇩🇪 Германия",
   "routing": {
     "domainMatcher": "hybrid",
     "domainStrategy": "IPIfNonMatch",
